@@ -17,11 +17,12 @@ A complete redesign of the SAM.gov/fpds transition page, transforming dense prog
 
 ## 📁 Project Files
 
-fpds-redesign/
+This repository contains three files:
 
-├── index.html # Standalone demo with full USWDS styling 
-├── drupal-content.html # CMS-ready HTML block for SAM.gov 
-└── README.md # Project documentation
+- `index.html` - Standalone demo with full USWDS styling (for GitHub Pages)
+- `drupal-content.html` - CMS-ready HTML block for SAM.gov Drupal
+- `README.md` - This documentation file
+
 
 
 ---
