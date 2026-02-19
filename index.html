@@ -1,125 +1,323 @@
-<!-- FPDS.gov Is Retiring - Drupal CMS Content (Main Content Only) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FPDS.gov Is Retiring | SAM.gov</title>
+  <meta name="description" content="FPDS.gov is retiring on February 24, 2026. Learn where to search contract data, manage awards, and access APIs on SAM.gov.">
+  
+  <!-- USWDS 3.0 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@uswds/uswds@3.7.1/dist/css/uswds.min.css">
+  
+  <style>
+    /* Custom styles for demo */
+    .border-left-4 {
+      border-left: 4px solid;
+    }
+    .border-blue-600 {
+      border-left-color: #005ea2;
+    }
+    .border-yellow-600 {
+      border-left-color: #ffbe2e;
+    }
+    .border-green-600 {
+      border-left-color: #00a91c;
+    }
+    .text-blue-700 {
+      color: #0050d8;
+    }
+    .text-yellow-700 {
+      color: #e5a000;
+    }
+    .text-green-700 {
+      color: #008817;
+    }
+    .text-red-700 {
+      color: #b50909;
+    }
+    .icon {
+      display: inline-block;
+      width: 1.25rem;
+      height: 1.25rem;
+      vertical-align: text-bottom;
+    }
+    .flex-center {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- USWDS Header -->
+  <header class="usa-header usa-header--basic">
+    <div class="usa-nav-container">
+      <div class="usa-navbar">
+        <div class="usa-logo">
+          <em class="usa-logo__text">
+            <a href="https://sam.gov" title="Home" aria-label="SAM.gov home">SAM.gov</a>
+          </em>
+        </div>
+      </div>
+    </div>
+  </header>
 
-<h2 class="h1">FPDS.gov Is Retiring</h2>
+  <!-- Main Content -->
+  <main id="main-content" class="usa-section">
+    <div class="grid-container">
+      <!-- Hero -->
+      <div class="margin-bottom-6">
+        <h1 class="font-heading-2xl margin-bottom-3">FPDS.gov Is Retiring</h1>
+        
+        <div class="usa-alert usa-alert--info usa-alert--no-icon margin-bottom-2">
+          <div class="usa-alert__body">
+            <h2 class="usa-alert__heading">Searching contract data on FPDS.gov ends February 24, 2026.</h2>
+            <p class="usa-alert__text">After this date, contract data will only be available on SAM.gov.</p>
+          </div>
+        </div>
+      </div>
 
-<p class="usa-alert usa-alert--info">
-  <strong>Searching contract data on FPDS.gov ends February 24, 2026.</strong><br>
-  After this date, contract data will only be available on SAM.gov.
-</p>
+      <!-- Where to Go -->
+      <section class="margin-bottom-6" aria-labelledby="where-heading">
+        <h2 id="where-heading" class="font-heading-xl margin-bottom-2">Where Do You Need to Go?</h2>
+        <p class="font-body-lg margin-bottom-4"><strong>Choose the option that applies to you:</strong></p>
 
-<hr>
+        <div class="usa-prose">
+          <!-- Search -->
+          <div class="border-left-4 border-blue-600 padding-left-2 padding-y-2 margin-bottom-3">
+            <p class="font-body-lg text-bold text-blue-700 margin-bottom-2 flex-center">
+              <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.35-4.35"></path>
+              </svg>
+              Search Contract Data
+            </p>
+            <p class="margin-bottom-1">If you previously searched contract awards in FPDS.gov, use SAM.gov going forward.</p>
+            <p class="margin-bottom-2">Starting February 24, search will only be available on SAM.gov.</p>
+            <a href="https://sam.gov/search" class="usa-button">
+              Go to SAM.gov Search
+              <svg class="icon margin-left-05" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
 
-<h2>Where Do You Need to Go?</h2>
+          <!-- Federal Users -->
+          <div class="border-left-4 border-yellow-600 padding-left-2 padding-y-2 margin-bottom-3">
+            <p class="font-body-lg text-bold text-yellow-700 margin-bottom-2 flex-center">
+              <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+              Manage Contract Data (Federal Users)
+            </p>
+            <p class="margin-bottom-1">Continue entering data through your agency's Contract Writing System (CWS).</p>
+            <p class="margin-bottom-2">Starting February 24, access contract data at sam.gov/contracting and select <strong>"Manage Contract Awards."</strong></p>
+            <a href="https://sam.gov/contracting" class="usa-button usa-button--outline">
+              Go to Manage Contract Awards
+              <svg class="icon margin-left-05" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
 
-<p><strong>Choose the option that applies to you:</strong></p>
+          <!-- API -->
+          <div class="border-left-4 border-green-600 padding-left-2 padding-y-2 margin-bottom-3">
+            <p class="font-body-lg text-bold text-green-700 margin-bottom-2 flex-center">
+              <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+              Access Data via API
+            </p>
+            <p class="margin-bottom-1">The FPDS Atom Feed will retire later in FY 2026.</p>
+            <p class="margin-bottom-2">Use the SAM.gov API instead.</p>
+            
+            <div class="bg-base-lightest padding-2 margin-bottom-2">
+              <p class="text-bold margin-bottom-1">Migration steps:</p>
+              <ol class="usa-list">
+                <li>Register for a SAM.gov API key</li>
+                <li>Update your integration endpoint</li>
+                <li>Validate JSON or CSV schema compatibility</li>
+              </ol>
+            </div>
 
-<!-- Search Contract Data -->
-<p class="border-left-05 border-primary padding-left-2 padding-y-1 margin-top-3">
-  <strong class="text-primary">🔎 Search Contract Data</strong><br>
-  If you previously searched contract awards in FPDS.gov, use SAM.gov going forward.<br>
-  <br>
-  Starting February 24, search will only be available on SAM.gov.<br>
-  <br>
-  <a href="https://sam.gov/search" class="usa-button">Go to SAM.gov Search</a>
-</p>
+            <a href="https://open.gsa.gov/api/entity-api/" class="usa-button usa-button--outline">
+              Get API Key
+              <svg class="icon margin-left-05" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
 
-<!-- Manage Contract Data (Federal Users) -->
-<p class="border-left-05 border-secondary-dark padding-left-2 padding-y-1 margin-top-3">
-  <strong class="text-secondary-dark">🏛 Manage Contract Data (Federal Users)</strong><br>
-  Continue entering data through your agency's Contract Writing System (CWS).<br>
-  <br>
-  Starting February 24, access contract data at sam.gov/contracting and select <strong>"Manage Contract Awards."</strong><br>
-  <br>
-  <a href="https://sam.gov/contracting" class="usa-button usa-button--outline">Go to Manage Contract Awards</a>
-</p>
+      <hr class="margin-y-6">
 
-<!-- Access Data via API -->
-<p class="border-left-05 border-success padding-left-2 padding-y-1 margin-top-3">
-  <strong class="text-success">⚙ Access Data via API</strong><br>
-  The FPDS Atom Feed will retire later in FY 2026.<br>
-  <br>
-  Use the SAM.gov API instead.<br>
-  <br>
-  <strong>Migration steps:</strong>
-</p>
+      <!-- Key Deadlines -->
+      <section class="margin-bottom-6" aria-labelledby="deadlines-heading">
+        <h2 id="deadlines-heading" class="font-heading-xl margin-bottom-3">Key Deadlines</h2>
+        
+        <div class="usa-prose">
+          <div class="margin-bottom-3">
+            <p class="font-body-lg text-bold margin-bottom-1">February 24, 2026</p>
+            <ul class="usa-list">
+              <li>FPDS public search ends</li>
+              <li>ContractDirectory.gov (ICD) stops</li>
+            </ul>
+          </div>
 
-<ol class="margin-left-3">
-  <li>Register for a SAM.gov API key</li>
-  <li>Update your integration endpoint</li>
-  <li>Validate JSON or CSV schema compatibility</li>
-</ol>
+          <div>
+            <p class="font-body-lg text-bold margin-bottom-1">Later in FY 2026</p>
+            <ul class="usa-list">
+              <li>FPDS Atom Feed retires</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-<p class="margin-left-3">
-  <a href="https://open.gsa.gov/api/entity-api/" class="usa-button usa-button--outline">Get API Key</a>
-</p>
+      <hr class="margin-y-6">
 
-<hr>
+      <!-- Important -->
+      <section class="margin-bottom-6" aria-labelledby="important-heading">
+        <h2 id="important-heading" class="font-heading-xl margin-bottom-3">Important</h2>
+        
+        <div class="usa-prose">
+          <div class="margin-bottom-4">
+            <h3 class="font-heading-lg margin-bottom-2">Login Required</h3>
+            <p class="margin-bottom-1">SAM.gov requires a free Login.gov account for contract search.</p>
+            <p class="margin-bottom-2">Create your account now to avoid disruption.</p>
+            <a href="https://login.gov" class="usa-button">
+              Create Login.gov Account
+              <svg class="icon margin-left-05" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
 
-<h2>Key Deadlines</h2>
+          <div>
+            <h3 class="font-heading-lg margin-bottom-2">Download Saved Reports</h3>
+            <p>Reports saved in FPDS.gov will not transfer automatically. Download any saved or ad hoc reports before February 24.</p>
+          </div>
+        </div>
+      </section>
 
-<p><strong>February 24, 2026</strong></p>
-<ul class="sds-list">
-  <li>FPDS public search ends</li>
-  <li>ContractDirectory.gov (ICD) stops</li>
-</ul>
+      <hr class="margin-y-6">
 
-<p><strong>Later in FY 2026</strong></p>
-<ul class="sds-list">
-  <li>FPDS Atom Feed retires</li>
-</ul>
+      <!-- FAQ -->
+      <section class="margin-bottom-6" aria-labelledby="faq-heading">
+        <h2 id="faq-heading" class="font-heading-xl margin-bottom-3">Frequently Asked Questions</h2>
+        
+        <div class="usa-accordion usa-accordion--bordered">
+          <h3 class="usa-accordion__heading">
+            <button type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="faq-1">
+              Why are you making these changes?
+            </button>
+          </h3>
+          <div id="faq-1" class="usa-accordion__content usa-prose" hidden>
+            <p>Modernizing FPDS.gov and consolidating into SAM.gov creates a better experience and reduces costs.</p>
+          </div>
 
-<hr>
+          <h3 class="usa-accordion__heading">
+            <button type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="faq-2">
+              Will my Contract Writing System (CWS) continue to work?
+            </button>
+          </h3>
+          <div id="faq-2" class="usa-accordion__content usa-prose" hidden>
+            <p>Yes. Your CWS will transition from FPDS.gov to SAM.gov Contract Awards API. Continue entering data as usual. Work with your CWS provider to ensure they migrate from Atom Feed before the final sunset later in FY 2026.</p>
+          </div>
 
-<h2>Important</h2>
+          <h3 class="usa-accordion__heading">
+            <button type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="faq-3">
+              What happens to my FPDS reports?
+            </button>
+          </h3>
+          <div id="faq-3" class="usa-accordion__content usa-prose" hidden>
+            <p class="margin-bottom-2">Standard reports moved to SAM.gov Data Bank with more fields, 150K rows, and 12 years of history.</p>
+            <p class="text-bold text-red-700">Reports saved in FPDS.gov will not transfer automatically. Download any saved or ad hoc reports before February 24.</p>
+          </div>
 
-<h3>Login Required</h3>
-<p>
-  SAM.gov requires a free Login.gov account for contract search.<br>
-  Create your account now to avoid disruption.
-</p>
+          <h3 class="usa-accordion__heading">
+            <button type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="faq-4">
+              What is ContractDirectory.gov (ICD)?
+            </button>
+          </h3>
+          <div id="faq-4" class="usa-accordion__content usa-prose" hidden>
+            <p>The Integrated Contract Directory (ICD) for GWACs, IDVs, and FSS contracts stops on February 24. Use SAM.gov Contract Awards search for all contract searches.</p>
+          </div>
+        </div>
+      </section>
 
-<p>
-  <a href="https://secure.login.gov/" class="usa-button">Create Login.gov Account</a>
-</p>
+      <hr class="margin-y-6">
 
-<h3>Download Saved Reports</h3>
-<p>
-  Reports saved in FPDS.gov will not transfer automatically. Download any saved or ad hoc reports before February 24.
-</p>
+      <!-- Help -->
+      <section class="margin-bottom-6" aria-labelledby="help-heading">
+        <h2 id="help-heading" class="font-heading-xl margin-bottom-3">Need Help?</h2>
+        
+        <ul class="usa-list usa-list--unstyled">
+          <li class="margin-bottom-1">
+            <a href="https://www.fsd.gov/" class="usa-link">
+              Federal Service Desk Help Articles
+            </a>
+          </li>
+          <li class="margin-bottom-1">
+            <a href="https://open.gsa.gov/api/entity-api/" class="usa-link">
+              API Documentation (open.gsa.gov)
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fpds.gov/downloads/Version_1.5_specs/FPDSNG_DataDictionary_V1.5.pdf" class="usa-link">
+              Data Dictionary
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
 
-<hr>
+  <!-- USWDS Footer -->
+  <footer class="usa-footer usa-footer--slim">
+    <div class="grid-container usa-footer__return-to-top">
+      <a href="#">Return to top</a>
+    </div>
+    <div class="usa-footer__primary-section">
+      <div class="grid-container">
+        <div class="grid-row grid-gap">
+          <div class="tablet:grid-col-8">
+            <nav class="usa-footer__nav" aria-label="Footer navigation">
+              <ul class="grid-row grid-gap">
+                <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
+                  <a class="usa-footer__primary-link" href="https://sam.gov/about">About SAM.gov</a>
+                </li>
+                <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
+                  <a class="usa-footer__primary-link" href="https://www.fsd.gov/">Help</a>
+                </li>
+                <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
+                  <a class="usa-footer__primary-link" href="https://sam.gov/content/accessibility">Accessibility</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="usa-footer__secondary-section">
+      <div class="grid-container">
+        <div class="usa-footer__logo grid-row grid-gap-2">
+          <div class="grid-col-auto">
+            <p class="usa-footer__logo-heading">U.S. General Services Administration</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-<h2>Frequently Asked Questions</h2>
-
-<h3>Why are you making these changes?</h3>
-<p>
-  Modernizing FPDS.gov and consolidating into SAM.gov creates a better experience and reduces costs.
-</p>
-
-<h3>Will my Contract Writing System (CWS) continue to work?</h3>
-<p>
-  Yes. Your CWS will transition from FPDS.gov to SAM.gov Contract Awards API. Continue entering data as usual. Work with your CWS provider to ensure they migrate from Atom Feed before the final sunset later in FY 2026.
-</p>
-
-<h3>What happens to my FPDS reports?</h3>
-<p>
-  Standard reports moved to SAM.gov Data Bank with more fields, 150K rows, and 12 years of history.
-</p>
-<p>
-  <strong class="text-emergency">Reports saved in FPDS.gov will not transfer automatically. Download any saved or ad hoc reports before February 24.</strong>
-</p>
-
-<h3>What is ContractDirectory.gov (ICD)?</h3>
-<p>
-  The Integrated Contract Directory (ICD) for GWACs, IDVs, and FSS contracts stops on February 24. Use SAM.gov Contract Awards search for all contract searches.
-</p>
-
-<hr>
-
-<h2>Need Help?</h2>
-
-<ul class="sds-list sds-list-link">
-  <li><a href="https://www.fsd.gov/" class="text-primary">Federal Service Desk Help Articles</a></li>
-  <li><a href="https://open.gsa.gov/api/entity-api/" class="text-primary">API Documentation (open.gsa.gov)</a></li>
-  <li><a href="https://www.fpds.gov/downloads/Version_1.5_specs/FPDSNG_DataDictionary_V1.5.pdf" class="text-primary">Data Dictionary</a></li>
-</ul>
+  <!-- USWDS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@uswds/uswds@3.7.1/dist/js/uswds.min.js"></script>
+</body>
+</html>
