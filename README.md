@@ -137,7 +137,7 @@ Expand existing tags:
 <strong> add: text-primary text-secondary text-base-dark
 <ul> <ol> add: margin-left-3 margin-top-2 usa-list
 Alternative: Full HTML Access
-Grantung access to the Full HTML text format would solve both issues without requiring text format configuration changes.
+If the requester is a trusted content creator, granting access to the Full HTML text format would solve both issues without requiring text format configuration changes.
 
 🔍 Sources & Accuracy
 Content cross-referenced with:
@@ -158,10 +158,13 @@ Federal employees - Managing contract awards
 Developers/Integrators - Using APIs for data access
 Contract Writing System vendors - Migrating integrations
 📧 Questions or Feedback?
-Contact: [Your email or Slack handle]
+Contact: [tyler55@vt.edu]
 
 📜 License
 This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the CC0 1.0 Universal public domain dedication.
 
 Built with ❤️ for better government UX
+
+
+---
 
