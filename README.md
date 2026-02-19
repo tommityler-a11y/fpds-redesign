@@ -13,7 +13,7 @@ The original page was text-heavy with poor information hierarchy. This redesign 
 ## 🔗 Links
 
 - **Original page:** [https://sam.gov/fpds](https://sam.gov/fpds)
-- **Live redesign:** [https://YOUR-USERNAME.github.io/fpds-redesign/](https://YOUR-USERNAME.github.io/fpds-redesign/)
+- **Live redesign:** [[https://YOUR-USERNAME.github.io/fpds-redesign/](https://YOUR-USERNAME.github.io/fpds-redesign/)](https://tommityler-a11y.github.io/fpds-redesign/)
 
 *(Replace `YOUR-USERNAME` with your GitHub username after deployment)*
 
