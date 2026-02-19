@@ -12,20 +12,19 @@ The original page was text-heavy with poor information hierarchy. This redesign 
 
 ## 🔗 Links
 
-- **Original page:** [https://sam.gov/fpds](https://sam.gov/fpds)
-- **Live redesign:** [[https://YOUR-USERNAME.github.io/fpds-redesign/](https://YOUR-USERNAME.github.io/fpds-redesign/)](https://tommityler-a11y.github.io/fpds-redesign/)
-
-*(Replace `YOUR-USERNAME` with your GitHub username after deployment)*
+- **Original page:** [https://sam.gov/fpds](https://sam.gov/fpds)]
+- **Live redesign:** [https://tommityler-a11y.github.io/fpds-redesign)]
 
 ---
 
 ## 📁 Repository Contents
 
-fpds-redesign/ ├── index.html # GitHub Pages version (standalone, full USWDS styling) ├── drupal-content.html # Drupal-ready HTML block (for SAM.gov CMS) └── README.md # This file
-
+fpds-redesign/ 
+├── index.html # GitHub Pages version (standalone, full USWDS styling) 
+├── drupal-content.html # Drupal-ready HTML block (for SAM.gov CMS) 
+└── README.md # This file
 
 ---
-
 ## ✨ Key Improvements
 
 ### Before (Original)
