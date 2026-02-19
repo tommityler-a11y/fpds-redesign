@@ -130,38 +130,61 @@ The `drupal-content.html` file is ready to paste into SAM.gov's Drupal CMS, but 
 
 The following classes need to be added to Drupal's Basic HTML text format filter:
 
-**New tags:**
+**New tags needed:**
+- `<div>` with classes: `grid-row grid-gap-2 tablet:grid-col-6 desktop:grid-col-4 margin-bottom-2 margin-top-2 bg-primary-lighter border padding-2 padding-3`
+- `<span>` with classes: `text-primary text-secondary text-base-dark`
 
-Expand existing tags:
+**Expand existing tags:**
+- `<p>` add classes: `usa-alert usa-alert--info border-left-05 border-primary padding-left-2 margin-bottom-2 bg-primary-lighter`
+- `<strong>` add classes: `text-primary text-secondary text-base-dark`
+- `<ul>` and `<ol>` add classes: `margin-left-3 margin-top-2 usa-list`
 
-<p> add: usa-alert usa-alert--info border-left-05 border-primary padding-left-2 margin-bottom-2 bg-primary-lighter
-<strong> add: text-primary text-secondary text-base-dark
-<ul> <ol> add: margin-left-3 margin-top-2 usa-list
-Alternative: Full HTML Access
-If the requester is a trusted content creator, granting access to the Full HTML text format would solve both issues without requiring text format configuration changes.
+### Alternative: Full HTML Access
 
-🔍 Sources & Accuracy
+If the requester is a trusted content creator, granting access to the **Full HTML text format** would solve both issues without requiring text format configuration changes.
+
+---
+
+## 🔍 Sources & Accuracy
+
 Content cross-referenced with:
 
-Official SAM.gov/fpds page
-GSA internal team communications
-FPDS decommissioning announcements
-SAM.gov migration documentation
-What's Ending February 24, 2026
-✅ FPDS public search (ezSearch)
-✅ ContractDirectory.gov (ICD)
-✅ FPDS login access
-What Continues (Ending Later)
-⏳ FPDS Atom Feed (retiring later in FY 2026)
-👥 Target Audiences
-Public users - Searching for contract data
-Federal employees - Managing contract awards
-Developers/Integrators - Using APIs for data access
-Contract Writing System vendors - Migrating integrations
-📧 Questions or Feedback?
-Contact:  tyler55@vt.edu
+- Official SAM.gov/fpds page
+- GSA internal team communications
+- FPDS decommissioning announcements
+- SAM.gov migration documentation
 
-📜 License
-This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the CC0 1.0 Universal public domain dedication.
+### What's Ending February 24, 2026
 
-Built with ❤️ for better government UX
+- ✅ FPDS public search (ezSearch)
+- ✅ ContractDirectory.gov (ICD)
+- ✅ FPDS login access
+
+### What Continues (Ending Later)
+
+- ⏳ FPDS Atom Feed (retiring later in FY 2026)
+
+---
+
+## 👥 Target Audiences
+
+1. **Public users** - Searching for contract data
+2. **Federal employees** - Managing contract awards
+3. **Developers/Integrators** - Using APIs for data access
+4. **Contract Writing System vendors** - Migrating integrations
+
+---
+
+## 📧 Questions or Feedback?
+
+Contact: tyler55@vt.edu
+
+---
+
+## 📜 License
+
+This project is in the **public domain** within the United States, and copyright and related rights in the work worldwide are waived through the CC0 1.0 Universal public domain dedication.
+
+---
+
+**Built with ❤️ for better government UX**
