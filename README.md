@@ -128,6 +128,8 @@ The `drupal-content.html` file is ready to paste into SAM.gov's Drupal CMS, but 
 
 ### Required USWDS Classes
 
+### Required USWDS Classes
+
 The following classes need to be added to Drupal's Basic HTML text format filter:
 
 **New tags:**
@@ -158,13 +160,10 @@ Federal employees - Managing contract awards
 Developers/Integrators - Using APIs for data access
 Contract Writing System vendors - Migrating integrations
 📧 Questions or Feedback?
-Contact: [tyler55@vt.edu]
+Contact: tyler55@vt.edu
 
 📜 License
 This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the CC0 1.0 Universal public domain dedication.
 
 Built with ❤️ for better government UX
-
-
----
 
