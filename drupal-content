@@ -1,0 +1,125 @@
+<!-- FPDS.gov Is Retiring - Drupal CMS Content (Main Content Only) -->
+
+<h2 class="h1">FPDS.gov Is Retiring</h2>
+
+<p class="usa-alert usa-alert--info">
+  <strong>Searching contract data on FPDS.gov ends February 24, 2026.</strong><br>
+  After this date, contract data will only be available on SAM.gov.
+</p>
+
+<hr>
+
+<h2>Where Do You Need to Go?</h2>
+
+<p><strong>Choose the option that applies to you:</strong></p>
+
+<!-- Search Contract Data -->
+<p class="border-left-05 border-primary padding-left-2 padding-y-1 margin-top-3">
+  <strong class="text-primary">🔎 Search Contract Data</strong><br>
+  If you previously searched contract awards in FPDS.gov, use SAM.gov going forward.<br>
+  <br>
+  Starting February 24, search will only be available on SAM.gov.<br>
+  <br>
+  <a href="https://sam.gov/search" class="usa-button">Go to SAM.gov Search</a>
+</p>
+
+<!-- Manage Contract Data (Federal Users) -->
+<p class="border-left-05 border-secondary-dark padding-left-2 padding-y-1 margin-top-3">
+  <strong class="text-secondary-dark">🏛 Manage Contract Data (Federal Users)</strong><br>
+  Continue entering data through your agency's Contract Writing System (CWS).<br>
+  <br>
+  Starting February 24, access contract data at sam.gov/contracting and select <strong>"Manage Contract Awards."</strong><br>
+  <br>
+  <a href="https://sam.gov/contracting" class="usa-button usa-button--outline">Go to Manage Contract Awards</a>
+</p>
+
+<!-- Access Data via API -->
+<p class="border-left-05 border-success padding-left-2 padding-y-1 margin-top-3">
+  <strong class="text-success">⚙ Access Data via API</strong><br>
+  The FPDS Atom Feed will retire later in FY 2026.<br>
+  <br>
+  Use the SAM.gov API instead.<br>
+  <br>
+  <strong>Migration steps:</strong>
+</p>
+
+<ol class="margin-left-3">
+  <li>Register for a SAM.gov API key</li>
+  <li>Update your integration endpoint</li>
+  <li>Validate JSON or CSV schema compatibility</li>
+</ol>
+
+<p class="margin-left-3">
+  <a href="https://open.gsa.gov/api/entity-api/" class="usa-button usa-button--outline">Get API Key</a>
+</p>
+
+<hr>
+
+<h2>Key Deadlines</h2>
+
+<p><strong>February 24, 2026</strong></p>
+<ul class="sds-list">
+  <li>FPDS public search ends</li>
+  <li>ContractDirectory.gov (ICD) stops</li>
+</ul>
+
+<p><strong>Later in FY 2026</strong></p>
+<ul class="sds-list">
+  <li>FPDS Atom Feed retires</li>
+</ul>
+
+<hr>
+
+<h2>Important</h2>
+
+<h3>Login Required</h3>
+<p>
+  SAM.gov requires a free Login.gov account for contract search.<br>
+  Create your account now to avoid disruption.
+</p>
+
+<p>
+  <a href="https://secure.login.gov/" class="usa-button">Create Login.gov Account</a>
+</p>
+
+<h3>Download Saved Reports</h3>
+<p>
+  Reports saved in FPDS.gov will not transfer automatically. Download any saved or ad hoc reports before February 24.
+</p>
+
+<hr>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Why are you making these changes?</h3>
+<p>
+  Modernizing FPDS.gov and consolidating into SAM.gov creates a better experience and reduces costs.
+</p>
+
+<h3>Will my Contract Writing System (CWS) continue to work?</h3>
+<p>
+  Yes. Your CWS will transition from FPDS.gov to SAM.gov Contract Awards API. Continue entering data as usual. Work with your CWS provider to ensure they migrate from Atom Feed before the final sunset later in FY 2026.
+</p>
+
+<h3>What happens to my FPDS reports?</h3>
+<p>
+  Standard reports moved to SAM.gov Data Bank with more fields, 150K rows, and 12 years of history.
+</p>
+<p>
+  <strong class="text-emergency">Reports saved in FPDS.gov will not transfer automatically. Download any saved or ad hoc reports before February 24.</strong>
+</p>
+
+<h3>What is ContractDirectory.gov (ICD)?</h3>
+<p>
+  The Integrated Contract Directory (ICD) for GWACs, IDVs, and FSS contracts stops on February 24. Use SAM.gov Contract Awards search for all contract searches.
+</p>
+
+<hr>
+
+<h2>Need Help?</h2>
+
+<ul class="sds-list sds-list-link">
+  <li><a href="https://www.fsd.gov/" class="text-primary">Federal Service Desk Help Articles</a></li>
+  <li><a href="https://open.gsa.gov/api/entity-api/" class="text-primary">API Documentation (open.gsa.gov)</a></li>
+  <li><a href="https://www.fpds.gov/downloads/Version_1.5_specs/FPDSNG_DataDictionary_V1.5.pdf" class="text-primary">Data Dictionary</a></li>
+</ul>
